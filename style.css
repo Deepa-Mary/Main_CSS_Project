@@ -1,0 +1,182 @@
+*{
+  margin:0;
+  padding:0;
+}
+.body
+{
+border-right:2px;
+background-color:#cccddd;
+font-family: 'Times New Roman', Times, serif;
+}
+.headertop
+{
+background-color:#1f2937;
+}
+#h1
+{
+  border: bottom 2px;
+  color:#f9faf8;
+  font-size:24px;
+}
+#menu
+{
+  width:900px;
+  margin:auto;
+  text-align:center;
+  font-size:18px;
+  color:#e5e7eb;
+  font-family: 'Times New Roman', Times, serif;
+  border-top:10px;
+  margin-right:10px;
+  margin-top:3px;
+}
+#menu ul
+{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+ #menu ul li
+{
+  display:inline-block;
+}
+#menu ul li :hover
+{
+  background-color:#1f2937;
+}
+#menu ul li a,:visited
+{
+  color:#cccddd;
+  display:block;
+  padding:15px;
+  text-decoration:none;
+}
+#menu ul li a,:hover
+{
+color:#cccddd;
+text-decoration:none;
+}
+.content
+{
+  background-color:#1f2937;
+  width:100%;
+  margin: top 10px;
+}
+.contentleft
+{
+width:40%;
+float:left;
+background-color:#1f2937;
+padding-bottom: 26px;
+}
+.contheadtop
+{
+  padding-top:5px;
+  font-size:48px;
+  font-weight:400;
+  color:#f9faf8;
+  padding-bottom:10px;
+}
+.contheadpara
+{
+  font-size:18px;
+  color:#e5e7eb;
+}
+.button 
+{
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-right :3px;
+  padding-left:3px;
+  float:left;
+  position:relative;
+  background-color:#3882f6;
+  color:#e5e7eb;
+  font-weight:bolder;
+  border-radius:5px;
+}
+.contentright
+{
+width:60%;
+float:left;
+position:relative;
+background-color: #1f2937;
+padding-bottom:40px;
+border-bottom: 80px;
+}
+.fighead
+{
+font-size:24px;
+font-weight:bolder;
+font-style:italic;
+text-align: center;
+color:#1f2937;
+}
+.figpara
+{
+  display:inline-flex;
+  gap:300px;
+  float:left;
+  background-color:#cccddd;
+  position:relative;
+  font-weight:bolder;
+  text-align: center;
+  color:#1f2937;
+  margin-left: 20px;
+}
+.para
+{
+  background-color:#e5e7eb;
+  font-size:36px;
+  font-weight:lighter;
+  font-style:italic;
+  color:#1f2937;
+  display:inline-block;
+  text-align:center;
+  border-radius:10px;
+  margin-top:20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom:10px;
+  border:70px;
+  padding:70px
+
+}
+#call
+{
+  background-color:#3882f6 ;
+  color:#e5e7eb;
+  float:left;
+  margin-left:280px;
+  border-radius:10px;
+}
+.calltoact
+{
+  position:relative;
+  font-size:x-small;
+  margin-top:5px;
+}
+.callsub
+{
+  background-color:#3882f6;
+  font-size:xx-small;
+}
+.buttonaction
+{
+  background-color:#3882f6;
+  color:#e5e7eb;
+  padding:5px;
+  margin-left:400px;
+  margin-bottom:4px;
+  border-radius:5px;
+}
+footer
+{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#1f2937;
+  color: white;
+  text-align: center;
+}

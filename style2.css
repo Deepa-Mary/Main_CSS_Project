@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .body
+  {
+  border-right:2px;
+  background-color:#cccddd;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .headertop
+  {
+  background-color:#1f2937;
+  }
+  #h1
+  {
+    border: bottom 2px;
+    color:#f9faf8;
+    font-size:24px;
+  }
+  #menu
+  {
+    width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+    color:#e5e7eb;
+    font-family: 'Times New Roman', Times, serif;
+    border-top:10px;
+    margin-right:10px;
+    margin-top:3px;
+  }
+  #menu ul
+  {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+  }
+   #menu ul li
+  {
+    display:inline-block;
+  }
+  #menu ul li :hover
+  {
+    background-color:#1f2937;
+  }
+  #menu ul li a,:visited
+  {
+    color:#cccddd;
+    display:block;
+    padding:15px;
+    text-decoration:none;
+  }
+  #menu ul li a,:hover
+  {
+  color:#cccddd;
+  text-decoration:none;
+  }
+  .para
+  {
+    font-size:18px;
+    color:#e5e7eb;
+    font-family: 'Times New Roman', Times, serif;
+  }
